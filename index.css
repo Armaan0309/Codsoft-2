@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;900&family=Roboto:ital,wght@0,900;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+}
+
+.navbar h1{
+    font-size: 2.5rem;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #808080;
+    font-size: 20px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+.navbar ul li a:hover{
+    color: black;
+}
+
+.navbar ul li:last-child a{
+    margin: 0;
+}
+.hire-btn{
+    background: black;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hire-btn:hover{
+    background-color: #fff;
+    color: black;
+    border: black 2px solid;
+}
+
+/* main section */
+
+
+.main{
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h4{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.main h4 span{
+    color: #ffb742;
+}
+.main .title{
+    font-size: 2rem;
+}
+.main .sub-title{
+    font-size: 2rem;
+    margin-top: 8px;
+    color: #716c6c;
+
+}
+.main img{
+    width: 300px;
+    margin-top: 20px;
+}
+
+/* about section */
+.about-text{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 130px;
+    gap: 60px;
+    padding: 0 100px;
+
+}
+
+.about img{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.about h4{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.about .info p{
+    font-size: 20px;
+    margin-top: 8px;
+    color: #716c6c;
+}
+
+.about .info button{
+    margin-top: 20px;
+}
+
+/* skills section */
+.skills-text{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    gap: 60px;
+    padding: 0 100px;
+    height: 500px;
+}
+
+.skills .left{
+    width: 700px;
+}
+.skills .left .info h4{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.skills .left .info p{
+    font-size: 20px;
+    margin-top: 8px;
+    color: #716c6c;
+}
+.skills .left .hire-btn{
+    margin-top: 20px;
+}
+
+.skills .right{
+    width: 300px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills .right .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a5a4a4;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.skills .right .item i{
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* footer */
+
+footer{
+    position: relative;
+    background-color: #adacac;
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+}
+footer .cols{
+    display: flex;
+    align-items: start;
+}
+footer .cols .about-cols{
+    flex: 2;
+}
+footer .cols .about-cols h3{
+    font-size: 2rem;
+}
+footer .cols .about-cols p{
+    margin-top: -10px;
+}
+
+footer .cols .links-col{
+    flex: 2;
+}
+footer .cols .links-col h3{
+    color: black;
+    font-size: 20px;
+}
+footer .cols .links-col a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 19px;
+    display: block;
+    cursor: pointer;
+    line-height: 26px;
+    transition: color 0.3s ease;
+}
+footer .cols .links-col a:hover{
+    color: #ffb742;
+}
